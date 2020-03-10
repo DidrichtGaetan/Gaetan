@@ -1,0 +1,9 @@
+C:\Users\gaetan\source\repos\CartoProject\Math\obj\Debug\Math_Librairie.csprojAssemblyReference.cache
+C:\Users\gaetan\source\repos\CartoProject\Math\bin\Debug\Math.exe.config
+C:\Users\gaetan\source\repos\CartoProject\Math\bin\Debug\Math.exe
+C:\Users\gaetan\source\repos\CartoProject\Math\bin\Debug\Math.pdb
+C:\Users\gaetan\source\repos\CartoProject\Math\bin\Debug\NuGet.Frameworks.dll
+C:\Users\gaetan\source\repos\CartoProject\Math\bin\Debug\NuGet.Frameworks.xml
+C:\Users\gaetan\source\repos\CartoProject\Math\obj\Debug\Math_Librairie.csproj.CopyComplete
+C:\Users\gaetan\source\repos\CartoProject\Math\obj\Debug\Math.exe
+C:\Users\gaetan\source\repos\CartoProject\Math\obj\Debug\Math.pdb

@@ -1,0 +1,9 @@
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\bin\Debug\MyCartographyObjects.dll
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\bin\Debug\MyCartographyObjects.pdb
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\bin\Debug\Math_library.dll
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\bin\Debug\Math_library.pdb
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\bin\Debug\Math_library.dll.config
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\obj\Debug\MyCartographyObjects.csprojAssemblyReference.cache
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\obj\Debug\MyCartographyObjects.csproj.CopyComplete
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\obj\Debug\MyCartographyObjects.dll
+C:\Users\gaetan\source\repos\CartoProject\MyCartographyObjects\obj\Debug\MyCartographyObjects.pdb

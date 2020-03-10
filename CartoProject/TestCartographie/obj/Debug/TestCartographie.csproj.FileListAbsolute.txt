@@ -1,0 +1,12 @@
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\TestCartographie.exe.config
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\TestCartographie.exe
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\TestCartographie.pdb
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\MyCartographyObjects.dll
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\Math_library.dll
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\MyCartographyObjects.pdb
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\Math_library.pdb
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\bin\Debug\Math_library.dll.config
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\obj\Debug\TestCartographie.csprojAssemblyReference.cache
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\obj\Debug\TestCartographie.csproj.CopyComplete
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\obj\Debug\TestCartographie.exe
+C:\Users\gaetan\source\repos\CartoProject\TestCartographie\obj\Debug\TestCartographie.pdb
