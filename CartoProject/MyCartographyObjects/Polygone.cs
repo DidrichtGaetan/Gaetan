@@ -7,25 +7,30 @@ using System.Windows.Media;
 
 namespace MyCartographyObjects
 {
-    public class Polygone : CartoObj, IPointy
+    [Serializable]
+    public class Polygone : CartoObj, IPointy,ICartoObj
     {
+        [NonSerialized]
         private Color _remplissage;
+        [NonSerialized]
         private Color _contour;
         private double _opacite;
         private List<Coordonnees> _Liste;
         private List<double> _bBox;
+        private string _couleurContourString;
+        private string _couleurRemplissageString;
 
         #region PROPRIETE
         public Color Remplissage
         {
             get { return _remplissage; }
-            set { _remplissage = value; }
+            set { _remplissage = value; CouleurRemplissageString = _remplissage.ToString(); }
         }
 
         public Color Contour
         {
             get { return _contour; }
-            set { _contour = value; }
+            set { _contour = value; CouleurContourString = _contour.ToString(); }
         }
 
         public double Opacite
@@ -44,22 +49,22 @@ namespace MyCartographyObjects
 
 
         public List<Coordonnees> Liste { get => _Liste; set => _Liste = value; }
-
-
+        public string CouleurRemplissageString { get => _couleurRemplissageString; set => _couleurRemplissageString = value; }
+        public string CouleurContourString { get => _couleurContourString; set => _couleurContourString = value; }
         #endregion
 
         public Polygone(List<Coordonnees> L, Color contour, Color remplissage, double opacite, int id) : base()
         {
             _Liste = L;
-            _contour = contour;
-            _remplissage = remplissage;
+            Contour = contour;
+            Remplissage = remplissage;
             _opacite = opacite;
         }
         public Polygone()
         {
             _Liste = null;
-            _contour = Color.FromRgb(255, 255, 255);
-            _remplissage = Color.FromRgb(0, 0, 0);
+            Contour = Color.FromRgb(255, 255, 255);
+            Remplissage = Color.FromRgb(0, 0, 0);
             _opacite = 0.0;
 
         }
@@ -101,7 +106,13 @@ namespace MyCartographyObjects
                 _bBox.Add(ymin);
             }
             #endregion
+         
+        }
 
+        public void RTransforString()
+        {
+            _contour = (Color)ColorConverter.ConvertFromString(_couleurContourString);
+            _remplissage = (Color)ColorConverter.ConvertFromString(_couleurRemplissageString);
         }
     }
 }

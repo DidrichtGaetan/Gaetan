@@ -43,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CartoObj.cs" />
+    <Compile Include="ICartoObj.cs" />
     <Compile Include="IIsPointClose.cs" />
     <Compile Include="IPointy.cs" />
+    <Compile Include="MyPersonalMapData.cs" />
     <Compile Include="MyPolylineBoundingBoxComparer.cs" />
     <Compile Include="Polygone.cs" />
     <Compile Include="Coordonnees.cs" />

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCartographyObjects", "MyC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math_library", "Math_library\Math_library.csproj", "{245AC1F2-1B63-478C-B2E4-5B96473B46BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{53E30A9F-811E-4004-859D-99DF4EDFA91D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{245AC1F2-1B63-478C-B2E4-5B96473B46BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{245AC1F2-1B63-478C-B2E4-5B96473B46BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{245AC1F2-1B63-478C-B2E4-5B96473B46BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E30A9F-811E-4004-859D-99DF4EDFA91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E30A9F-811E-4004-859D-99DF4EDFA91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E30A9F-811E-4004-859D-99DF4EDFA91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E30A9F-811E-4004-859D-99DF4EDFA91D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

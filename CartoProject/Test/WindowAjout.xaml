@@ -1,0 +1,44 @@
+﻿<Window x:Class="Test.WindowAjout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="WindowAjout" Height="450" Width="800">
+    <Grid>
+        <Grid Margin="29,26,443.6,65">
+            <StackPanel HorizontalAlignment="Left" Height="313" VerticalAlignment="Top" Width="273" Margin="27,57,0,0">
+                <Label  Content="Latitude" FontSize="15"/>
+                <TextBox x:Name="LatitudeTB" Height="23" TextWrapping="Wrap" FontSize="15" />
+                <Label Content="Longitude" FontSize="15"/>
+                <TextBox x:Name="LongitudeTB" Height="23" TextWrapping="Wrap" FontSize="15" />
+                <Label Content="Description" FontSize="15"/>
+                <TextBox x:Name="DescriptionTB" Height="72" TextWrapping="Wrap" FontSize="15" Margin="0,0,-0.2,0" />
+                <Button x:Name ="Ajouter" Content="Ajouter " Height="36" Margin="0,0,-0.2,0" Click="Add_click"/>
+
+            </StackPanel>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="361" Margin="430,26,0,0" VerticalAlignment="Top" Width="319">
+            <StackPanel HorizontalAlignment="Left" Height="361" VerticalAlignment="Top" Width="319">
+                <Label Content="Opacité" FontSize="14"/>
+                <TextBlock x:Name="OpaciteTB" TextWrapping="Wrap" Text="" Height="28" Margin="0,0,0.2,0"/>
+                <Label Content="CouleurPoly" FontSize="14"/>
+                <TextBox x:Name="CouleurPoly" Height="29" TextWrapping="Wrap" Text="" Margin="0,0,0.2,0"/>
+                <Label Content="CouleurContour" FontSize="14"/>
+                <TextBox x:Name="CouleurContourTB"  Height="29" TextWrapping="Wrap" Text="" Margin="0,0,0.2,0"/>
+                <Label Content="CouleurRemplissage" FontSize="14"/>
+                <TextBox x:Name="CouleurRemplissageTB" Height="29" TextWrapping="Wrap" Text="" Margin="0,0,0.2,0"/>
+                <Label Content="Epaisseur" FontSize="14"/>
+                <TextBox x:Name="EpaisseurTB" Height="29" TextWrapping="Wrap" Text="" Margin="0,0,0.2,0"/>
+                <Button x:Name="valider" Content="Valider" Height="50" Margin="0,0,0.2,0" Click="valider_Click"/>
+
+            </StackPanel>
+        </Grid>
+       
+        
+
+
+
+    </Grid>
+</Window>

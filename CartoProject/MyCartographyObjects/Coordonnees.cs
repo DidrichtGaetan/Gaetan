@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using Math_library;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace MyCartographyObjects
 
 {
+    [Serializable]
     public class Coordonnees : CartoObj
     {
         #region VARIABLES MEMBRES

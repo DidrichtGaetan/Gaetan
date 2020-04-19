@@ -1,6 +1,7 @@
 ﻿using MyCartographyObjects;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -159,6 +160,16 @@ namespace TestCartographie
                 PP.Draw();
             }
 
+            Console.WriteLine("TestLoad et Save");
+            ObservableCollection<ICartoObj> ListeTest = new ObservableCollection<ICartoObj>();
+            ListeTest.Add(Poly1);
+
+            
+           
+            MyPersonalMapData user = new MyPersonalMapData("Dresse", "Amarige", "email1");
+            user.ObservableCollection=ListeTest;
+
+            user.Save();
             Console.ReadKey();
         }
 

@@ -7,11 +7,14 @@ using System.Linq;
 
 namespace MyCartographyObjects
 {
-    public class Polyline : CartoObj, IPointy, IComparable<Polyline>
+    [Serializable]
+    public class Polyline : CartoObj, IPointy, IComparable<Polyline>, ICartoObj
     {
 
         private int _epaisseur;
+        [NonSerialized]
         private Color _couleur;
+        private string _couleurString;
         private List<Coordonnees> _Liste;
         private List<double> _bBox;
 
@@ -22,13 +25,14 @@ namespace MyCartographyObjects
             set { _epaisseur = value; }
 
         }
-        private Color Couleur
+        public Color Couleur
         {
             get { return _couleur; }
-            set { _couleur = value; }
+            set { _couleur = value; CouleurString = _couleur.ToString(); }
         }
+        public string CouleurString { get => _couleurString; set => _couleurString = value;}
 
-        public List<Coordonnees> Liste { get => _Liste; set => _Liste = value; }
+    public List<Coordonnees> Liste { get => _Liste; set => _Liste = value; }
 
         public int NbPoints
         {
@@ -48,13 +52,13 @@ namespace MyCartographyObjects
         {
             _Liste = L;
             _epaisseur = epaisseur;
-            _couleur = couleur;
+            Couleur = couleur;
         }
         public Polyline()
         {
             // _Liste = null;
             _epaisseur = 0;
-            _couleur = Color.FromRgb(0, 0, 0);
+            Couleur = Color.FromRgb(255, 0, 255);
         }
         #endregion
 
@@ -75,7 +79,7 @@ namespace MyCartographyObjects
         {
             double longueur = 0, precedentX = 0, precedentY = 0;
             int i = 0;
-            foreach (Coordonnees point in Liste)
+            /*foreach (Coordonnees point in _Liste)
             {
                 if (i > 0)
                 {
@@ -84,7 +88,7 @@ namespace MyCartographyObjects
                 precedentX = point.longitude;
                 precedentY = point.latitude;
                 i++;
-            }
+            }*/
             return longueur;
         }
         public int CompareTo(Polyline other)
@@ -184,6 +188,11 @@ namespace MyCartographyObjects
             BoundingBox();
             return (MathUtil.DistancePoint(_bBox.ToArray()[1], _bBox.ToArray()[3], _bBox.ToArray()[1], _bBox.ToArray()[2]) * MathUtil.DistancePoint(_bBox.ToArray()[1], _bBox.ToArray()[2], _bBox.ToArray()[0], _bBox.ToArray()[2]));
   
+        }
+
+        public void RTransforString()
+        {
+            _couleur = (Color)ColorConverter.ConvertFromString(_couleurString);
         }
 
 

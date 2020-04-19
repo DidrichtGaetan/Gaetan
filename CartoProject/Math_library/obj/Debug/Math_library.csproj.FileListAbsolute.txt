@@ -3,4 +3,3 @@ C:\Users\gaetan\source\repos\CartoProject\Math_library\bin\Debug\Math_library.dl
 C:\Users\gaetan\source\repos\CartoProject\Math_library\bin\Debug\Math_library.pdb
 C:\Users\gaetan\source\repos\CartoProject\Math_library\obj\Debug\Math_library.dll
 C:\Users\gaetan\source\repos\CartoProject\Math_library\obj\Debug\Math_library.pdb
-C:\Users\gaetan\source\repos\CartoProject\Math_library\obj\Debug\Math_library.csprojAssemblyReference.cache

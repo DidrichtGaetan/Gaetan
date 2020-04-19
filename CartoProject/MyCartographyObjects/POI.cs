@@ -2,16 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 using Math_library;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace MyCartographyObjects
 
 {
-    public class POI: Coordonnees
+    [Serializable]
+    public class POI: Coordonnees,ICartoObj
     {
         #region VARIABLES MEMBRES
         private string _description;
         #endregion
         #region PROPRIETES
+        
         public string Description
         {
             get { return _description; }
@@ -44,6 +48,10 @@ namespace MyCartographyObjects
                 return 0;
         }
 
+        public void RTransforString()
+        {
+            Console.WriteLine("1");
+        }
     }
    
 }

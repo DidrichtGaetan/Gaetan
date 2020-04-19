@@ -5,6 +5,7 @@ using System.Text;
 namespace MyCartographyObjects
 
 {
+    [Serializable]
     public abstract class CartoObj : IIsPointClose
     {
         private int _id;

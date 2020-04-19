@@ -1,0 +1,14 @@
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\bin\Debug\PersonnalMapManager.exe.config
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\bin\Debug\PersonnalMapManager.exe
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\bin\Debug\PersonnalMapManager.pdb
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager.csprojAssemblyReference.cache
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\MainWindow.g.cs
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\App.g.cs
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager_MarkupCompile.cache
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager_MarkupCompile.lref
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\MainWindow.baml
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager.g.resources
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager.Properties.Resources.resources
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager.csproj.GenerateResource.cache
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager.exe
+C:\Users\gaetan\source\repos\CartoProject\PersonnalMapManager\obj\Debug\PersonnalMapManager.pdb
